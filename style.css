@@ -1,0 +1,31 @@
+.colonky{
+    column-count: 2;
+    column-gap: 30px;
+}
+.zg1{
+    font-size: 72px;
+    line-height: 1.2em;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.zg2{
+    font-size: 60px;
+    line-height: 1.2em;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.tx{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+}
+.btn{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+    border: orange;
+}
