@@ -1,9 +1,9 @@
 .header_section{
     display: flex;
     flex-direction: column;
-    column-count: 2;
     justify-content: space-between;
-    align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 .header_section_bgc{
     background-repeat: no-repeat;
@@ -37,12 +37,13 @@
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
+    margin-bottom: 12px;
 }
 .picture{
-    position: relative;
+    position: absolute;
     height: 525px;
-    top: 55px;
-    right: -270px;
+    top: 0px;
+    right: 0;
     width: auto;
 }
 .button{
@@ -58,4 +59,21 @@
     font-weight: bold;
     margin: 24px 12px;
     padding: 24px 12px;
+}
+.header_section-top_part{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.header_section-bottom_part{
+    display: flex;
+    flex-direction: row;
+
+}
+.anorher_text{
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
